@@ -1,0 +1,111 @@
+.maincontainer{
+    text-align: center;
+}
+span, a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.Logo{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 10px;
+}
+body {
+    background: #fff;
+    font-family: Tahoma, Arial;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Music{
+    margin-bottom: 10px;
+}
+.no_video{
+    font-size: 40px;
+    font-weight: bold;
+    width: 800px;
+    padding: 5px 0;
+    height: 450px;
+}
+#Music-player{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    clear: both;
+    max-width: 1400px;
+    max-height: 450px;
+    display: block;
+}
+#Main-panel, #Side-panel, #Type-panel{
+    float: left;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Main-panel{
+    width: 800px;
+    padding: 5px 0;
+    height: 540px;
+}
+#Music_name{
+    height: 50px;
+}
+#Side-panel{
+    width: 400px;
+    padding: 5px;
+    height: 430px;
+}
+#Type-panel{
+    width: 200px;
+    padding: 5px;
+    height: 450px;
+}
+#playlist-searcher{
+    margin: 0;
+    width: 100%;
+    /* box-sizing: border-box; */
+}
+#playlist{
+    margin-top: 10px;
+    max-height: 400px;
+    overflow: auto;
+}
+.Type{
+    display: block;
+    color: #337ab7;
+    padding: 5px;
+    background: #EAEDED;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+/* 만약 창 화면 가로가 1410 px이상이 되면 */
+@media screen and (max-width: 1430px) {
+    body,#iframe {margin:0;padding:0;font-size: 15  px;}
+    #Main-panel{width: 100%;}
+    #Side-panel, #Type-panel{width: 50%;}
+    .no_video{
+        width:100%;
+    }
+    #Music_name{
+        font-size: 30px;
+    }
+}
+
+/* 만약 창 화면 가로가 900 px이 되면 */
+@media screen and (max-width: 900px) { 
+    body,#iframe {margin:0;padding:0;font-size: 15px;}
+    #Main-panel,#Side-panel,#Type-panel{width: 100%;}
+    #player{
+        width: 100%;
+    }
+    #Main-panel{
+        max-height: 586px;
+    }
+    #Music_name{
+        font-size: 20px;
+    }
+    #playlist{
+        max-height: 385px;
+    }
+}
