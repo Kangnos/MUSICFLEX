@@ -18,8 +18,10 @@ app.get('/', function (req, res) {
 app.get('/Rap', function (req, res) {   
     fs.readdir('./Musics', function (err, filelist) {
         fs.readFile('Musics/RapMusics', 'utf8', function (err, musics) {
-            var musicpage = MusicFlexMusicPage.HTML(musics);
-            res.send(musicpage)
+            fs.readFile('Musics/RapList', 'utf8', function(err, Music_info_list){
+                var musicpage = MusicFlexMusicPage.HTML(musics, Music_info_list);
+                res.send(musicpage)
+            })
         })
     })
 })
@@ -27,8 +29,10 @@ app.get('/Rap', function (req, res) {
 app.get('/Pop', function (req, res) {   
     fs.readdir('./Musics', function (err, filelist) {
         fs.readFile('Musics/PopMusics', 'utf8', function (err, musics) {
-            var musicpage = MusicFlexMusicPage.HTML(musics);
-            res.send(musicpage)
+            fs.readFile('Musics/PopList', 'utf8', function(err, Music_info_list){
+                var musicpage = MusicFlexMusicPage.HTML(musics, Music_info_list);
+                res.send(musicpage)
+            })
         })
     })
 })
