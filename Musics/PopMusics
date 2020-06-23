@@ -9,4 +9,5 @@
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(8)"><span>🎧 </span> Justin Bieber - Love Yourself</span></div>
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(9)"><span>🎧 </span> Jack Ü - Where Are Ü Now</span></div>
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(10)"><span>🎧 </span> Train - Drive By</span></div>
-<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(11)"><span>🎧 </span> </span></div>
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(11)"><span>🎧 </span> Lukas Graham - 7 Years</span></div>
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(12)"><span>🎧 </span> Wiz Khalifa - See You Again</span></div>
