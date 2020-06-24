@@ -1,5 +1,5 @@
 {
-    vid: "4EQkYVtE-28",
+    vid: "CmTRAr2XhaE",
     artist: "Post Malone",
     musictitle: "Circles"
 },
@@ -14,9 +14,9 @@
     musictitle: "Señorita"
 },
 {
-    vid: "Hx4nWW9z0ig",
-    artist: "Tones and I",
-    musictitle: "Dance Monkey"
+    vid: "Kx7B-XvmFtE",
+    artist: "Believer",
+    musictitle: "Imagine Dragons"
 },
 {
     vid: "zdOapusfsOM",
@@ -62,4 +62,9 @@
     vid: "nugmZqIP0uk",
     artist: "Wiz Khalifa",
     musictitle: "See You Again"
+},
+{
+    vid: "SH1Zo3Fouyg",
+    artist: "Kygo, Selena Gomez",
+    musictitle: "It Ain't Me"
 }
