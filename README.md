@@ -16,4 +16,4 @@
 ### Plan C By using youtube API auto play function, Make musics play auto.
 
 ## Plan C succeed 2020.6.10
-## Plan B is really difficult to do for me. But I think I can do it. JUST DO IT.
+## Plan B is really difficult to do for me. But I think I can do it. JUST DO IT. 2020.6.24
