@@ -15,8 +15,5 @@
 ### Plan B Crolling Weather and show recomend song packages. (ex> good song when rainy day)
 ### Plan C By using youtube API auto play function, Make musics play auto.
 
-
-# Plan succeed 2020.6
-
-### Plan C 
-#### 70% of plan C succeed. I have to change the button event but it doesn 't work.
+## Plan C succeed 2020.6.10
+## Plan B is really difficult to do for me. But I think I can do it. JUST DO IT. 2020.6.24
