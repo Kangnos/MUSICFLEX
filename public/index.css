@@ -21,11 +21,13 @@ body {
     margin-bottom: 10px;
 }
 .no_video{
-    font-size: 40px;
-    font-weight: bold;
     width: 800px;
     padding: 5px 0;
     height: 450px;
+}
+#Music_name{
+    font-size: 40px;
+    font-weight: bold;
 }
 #Music-player{
     width: 100%;
@@ -51,6 +53,25 @@ body {
 #Music_name{
     height: 50px;
 }
+#lyrics-zone{
+    margin-top: 40px;
+    width: 800px;
+    height: 900px;
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+#lyrics-zone_musicname{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#lyrics-zone_artistname{
+    font-size: 23px;
+}
+
 #Side-panel{
     width: 400px;
     padding: 5px;
@@ -79,6 +100,8 @@ body {
     margin-bottom: 3px;
     box-sizing: border-box;
 }
+
+
 /* 만약 창 화면 가로가 1410 px이상이 되면 */
 @media screen and (max-width: 1430px) {
     body,#iframe {margin:0;padding:0;font-size: 15  px;}
