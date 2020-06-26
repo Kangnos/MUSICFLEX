@@ -56,21 +56,13 @@ body {
 #lyrics-zone{
     margin-top: 40px;
     width: 800px;
-    height: 900px;
+    height: 100px;
     margin-bottom: 40px;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 5px;
     padding-top: 10px;
-    border: 1px solid gray;
-    border-radius: 30px;
 }
-#lyrics-zone_musicname{
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-#lyrics-zone_artistname{
-    font-size: 23px;
-}
+
 
 #Side-panel{
     width: 400px;
@@ -104,7 +96,7 @@ body {
 
 /* 만약 창 화면 가로가 1410 px이상이 되면 */
 @media screen and (max-width: 1430px) {
-    body,#iframe {margin:0;padding:0;font-size: 15  px;}
+    body,#iframe {margin:0;padding:0;font-size: 15px;}
     #Main-panel{width: 100%;}
     #Side-panel, #Type-panel{width: 50%;}
     .no_video{
@@ -112,6 +104,18 @@ body {
     }
     #Music_name{
         font-size: 30px;
+    }
+    #Main-panel{
+        height: 548px;
+    }
+
+    /* lyrics */
+    #lyrics-zone{
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        font-size: 14px;
+        margin: 0px;
     }
 }
 
@@ -123,12 +127,17 @@ body {
         width: 100%;
     }
     #Main-panel{
-        max-height: 586px;
+        height: 548px;
     }
     #Music_name{
         font-size: 20px;
     }
     #playlist{
-        max-height: 385px;
+        height: 385px;
+    }
+
+    /* lyrics */
+    #lyrics-zone_artistname, #lyrics-zone_musicname{
+        font-size: 20px;
     }
 }
