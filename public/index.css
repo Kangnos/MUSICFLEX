@@ -6,17 +6,45 @@ span, a{
     color: black;
     font-weight: bold;
 }
-.Logo{
-    text-align: left;
-    font-size: 30px;
-    padding-left: 10px;
-}
 body {
     background: #fff;
     font-family: Tahoma, Arial;
     font-size: 18px;
     font-weight: 400;
 }
+.Logo{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+/* darkmode button */
+.toggle-container{
+    padding-left: 7px;
+    float: right;
+}
+
+.toggle-button{
+    width: 50px;
+    height: 20px;
+    background: gray;
+    border-radius: 30px;
+    padding: 5px;
+}
+.toggle-button > .inner-circle{
+    width:  20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+.toggle-button.active{
+    background: #00acee;
+}
+
+.toggle-button.active > .inner-circle{
+    margin-left: 30px;
+}
+/* darkmode button end */
 .Music{
     margin-bottom: 10px;
 }
