@@ -4,7 +4,9 @@
 span, a{
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
+
 body {
     background: #fff;
     font-family: Tahoma, Arial;
