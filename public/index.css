@@ -41,6 +41,11 @@ body {
     background: #00acee;
 }
 
+#toggle-button > .inner-circle:focus{
+    background-color: black;
+}
+
+
 #toggle-button.active > .inner-circle{
     margin-left: 30px;
 }
@@ -120,7 +125,7 @@ body {
     margin-bottom: 3px;
     box-sizing: border-box;
 }
-.type-a{
+#type-a{
     color: black;
 }
 
