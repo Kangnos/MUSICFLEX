@@ -3,7 +3,6 @@
 }
 span, a{
     text-decoration: none;
-    color: black;
     font-weight: bold;
 }
 body {
@@ -17,6 +16,7 @@ body {
     font-size: 30px;
     padding-left: 10px;
     margin-bottom: 10px;
+    color: black;
 }
 /* darkmode button */
 .toggle-container{
@@ -24,24 +24,24 @@ body {
     float: right;
 }
 
-.toggle-button{
+#toggle-button{
     width: 50px;
     height: 20px;
     background: gray;
     border-radius: 30px;
     padding: 5px;
 }
-.toggle-button > .inner-circle{
+#toggle-button > .inner-circle{
     width:  20px;
     height: 20px;
     background: #fff;
     border-radius: 50%;
 }
-.toggle-button.active{
+#toggle-button.active{
     background: #00acee;
 }
 
-.toggle-button.active > .inner-circle{
+#toggle-button.active > .inner-circle{
     margin-left: 30px;
 }
 /* darkmode button end */
@@ -114,11 +114,14 @@ body {
 }
 .Type{
     display: block;
-    color: #337ab7;
+    color: black;
     padding: 5px;
     background: #EAEDED;
     margin-bottom: 3px;
     box-sizing: border-box;
+}
+.type-a{
+    color: black;
 }
 
 
