@@ -14,6 +14,9 @@
 ### Plan A Crolling song lyrics in google and show lyrics in the song
 ### Plan B Crolling Weather and show recomend song packages. (ex> good song when rainy day)
 ### Plan C By using youtube API auto play function, Make musics play auto.
+### Plan D Dark Mode and Light Mode control with toggle.
 
+# Succeed Plans
 ## Plan C succeed 2020.6.10
 ## Plan B is really difficult to do for me. But I think I can do it. JUST DO IT. 2020.6.24
+## Plan D succeed 2020.6.28
