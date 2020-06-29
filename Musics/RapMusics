@@ -14,3 +14,5 @@
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(13)"><span>🎧 </span> NF - Lie</span></div>
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(14)"><span>🎧 </span> Lil Nas X - Old Town Road</span></div>
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(15)"><span>🎧 </span> NF - Warm Up</span></div>
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(16)"><span>🎧 </span> Eminem - Kings Never Die</span></div>
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(17)"><span>🎧 </span> Logic - Homicide</span></div>

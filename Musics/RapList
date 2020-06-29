@@ -77,5 +77,14 @@
     vid: "FVlh2cbOgdU",
     artist: "NF",
     musictitle: "Warm Up"
-    
+},
+{
+    vid: "LHKzRzVnvYY",
+    artist: "Eminem",
+    musictitle: "Kings Never Die"
+},
+{
+    vid: "mfqsEpjEtrw",
+    artist: "Logic",
+    musictitle: "Homicide"
 }

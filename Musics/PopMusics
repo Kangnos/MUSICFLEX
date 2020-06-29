@@ -12,3 +12,7 @@
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(11)"><span>🎧 </span> Lukas Graham - 7 Years</span></div>
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(12)"><span>🎧 </span> Wiz Khalifa - See You Again</span></div>
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(13)"><span>🎧 </span> Kygo, Selena Gomez - It Ain't Me</span></div>
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(14)"><span>🎧 </span> Logic - 1-800-273-8255</span></div>
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(15)"><span>🎧 </span> Ed Sheeran - Perfect</span></div>
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(16)"><span>🎧 </span> Coldplay - The Scientist</span></div>
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(17)"><span>🎧 </span> Green Day - Wake Me Up When September Ends</span></div>
