@@ -2,6 +2,11 @@
 
 #### This is a website which you can listen music or songs that you want
 
+#### How to run project
+
+`node main.js`
+
+
 #### Picture of MUSICFLEX Website
 
 ![MUSICFLEX Updated ver 2 photo](https://user-images.githubusercontent.com/57825621/84461100-95714b00-aca6-11ea-83b8-a0dfeb453591.JPG)
@@ -20,5 +25,4 @@
 #### Plan B is really difficult to do for me. But I think I can do it. JUST DO IT. 2020.6.24
 #### Plan D succeed 2020.6.28
 
-#### Run project
-`node main.js`
+
