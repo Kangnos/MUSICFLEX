@@ -18,6 +18,8 @@ body {
     font-size: 30px;
     padding-left: 10px;
     margin-bottom: 10px;
+}
+#logo{
     color: black;
 }
 
@@ -53,10 +55,7 @@ body {
 #toggle-button.active > .inner-circle{
     margin-left: 30px;
 }
-.dark-mode{
-    background-color: rgb(10, 10, 10);
-    color: rgb(230, 223, 223);
-}
+
 
 /* darkmode button end */
 
