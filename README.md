@@ -19,6 +19,7 @@
 #### Plan B Crolling Weather and show recomend song packages. (ex> good song when rainy day)
 #### Plan C By using youtube API auto play function, Make musics play auto.
 #### Plan D Dark Mode and Light Mode control with toggle.
+#### Plan E Save darkmode with cookie-parser and change html format to ejs format
 
 ### Succeed Plans
 #### Plan C succeed 2020.6.10
