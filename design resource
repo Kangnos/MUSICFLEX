@@ -49,3 +49,9 @@ function onPlayerStateChange(event) {
 }
 
 <div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(15)"><span>🎧 </span> </span></div>
+
+for (let i = 0; i < videos.length; i++) {
+    var item = '<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(1)"><span>🎧 </span>' + videos[video_code_number].artist + " - " + videos[video_code_number].musictitle + '</span></div>'
+    $(item).prependTo('#playlist');
+    $(item).appendTo('#playlist');
+}
