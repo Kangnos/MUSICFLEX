@@ -14,6 +14,7 @@
 
 `node main.js`
 
+#### go to "localhost:3000"
 
 
 ### Picture of MUSICFLEX Website
