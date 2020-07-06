@@ -4,7 +4,7 @@
 
 ### How to run project
 
-#### Download node
+#### Download node.js
 
 `cd "file located dirname"`
 
