@@ -19,8 +19,8 @@
 
 ### Picture of MUSICFLEX Website
 
-![MUSICFLEX Updated ver 2 photo](https://user-images.githubusercontent.com/57825621/84461100-95714b00-aca6-11ea-83b8-a0dfeb453591.JPG)
-![MusicFlex photo remake ver](https://user-images.githubusercontent.com/57825621/84461036-6fe44180-aca6-11ea-93f8-d1d7e4d27933.JPG)
+![MUSICFLEX github readme image updated ver 2 2020 07 06 JPG - 2](https://user-images.githubusercontent.com/57825621/86592402-5e086c80-bfce-11ea-9064-98478bfb26f4.JPG)
+![MUSICFLEX github readme image updated ver 2 2020 07 06](https://user-images.githubusercontent.com/57825621/86592418-6791d480-bfce-11ea-98b7-10b110098d28.JPG)
 
 
 ### Plans 2020.6.2 (or Idea)
