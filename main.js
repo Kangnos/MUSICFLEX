@@ -8,9 +8,6 @@ var compression = require('compression');
 var url = require('url');
 app.use(express.static('public'));
 app.use(compression())
-app.set('views', __dirname + "/views");
-app.set('view engine', 'ejs');
-
 
 app.get('/', function (req, res) {
     var mainpage = MusicFlexMainPage.HTML();
