@@ -2,9 +2,9 @@
 
 #### This is a website which you can listen music or songs that you want
 
-#### How to run project
+### How to run project
 
-Download node
+####Download node
 
 `cd "file located dirname"`
 
