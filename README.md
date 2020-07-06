@@ -4,6 +4,10 @@
 
 #### How to run project
 
+Download node
+
+`cd "file located dirname"`
+
 `node install express`
 
 `node install compression`
@@ -11,7 +15,8 @@
 `node main.js`
 
 
-#### Picture of MUSICFLEX Website
+
+### Picture of MUSICFLEX Website
 
 ![MUSICFLEX Updated ver 2 photo](https://user-images.githubusercontent.com/57825621/84461100-95714b00-aca6-11ea-83b8-a0dfeb453591.JPG)
 ![MusicFlex photo remake ver](https://user-images.githubusercontent.com/57825621/84461036-6fe44180-aca6-11ea-93f8-d1d7e4d27933.JPG)
