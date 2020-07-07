@@ -143,7 +143,7 @@ body {
 @media screen and (max-width: 1430px) {
     body,#iframe {margin:0;padding:0;font-size: 15px;}
     #Main-panel{width: 100%;}
-    #Side-panel, #Type-panel{width: 50%;}
+    #Side-panel, #Type-panel{width: 50%; height: 490px;}
     .no_video{
         width:100%;
     }
@@ -179,6 +179,9 @@ body {
     }
     #playlist{
         height: 385px;
+    }
+    #Type-panel{
+        height: 340px;
     }
 
     /* lyrics */
