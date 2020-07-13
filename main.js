@@ -14,24 +14,20 @@ app.get('/', function (req, res) {
     res.send(mainpage)
 });
 
-app.get('/Rap', function (req, res) {   
+app.get('/Hiphop', function (req, res) {   
     fs.readdir('./Musics', function (err, filelist) {
-        fs.readFile('Musics/RapMusics', 'utf8', function (err, musics) {
-            fs.readFile('Musics/RapList', 'utf8', function(err, Music_info_list){
-                var musicpage = MusicFlexMusicPage.HTML(musics, Music_info_list);
-                res.send(musicpage)
-            })
+        fs.readFile('Musics/HiphopList', 'utf8', function(err, Music_info_list){
+            var musicpage = MusicFlexMusicPage.HTML(Music_info_list);
+            res.send(musicpage)
         })
     })
 })
 
 app.get('/Pop', function (req, res) {   
     fs.readdir('./Musics', function (err, filelist) {
-        fs.readFile('Musics/PopMusics', 'utf8', function (err, musics) {
-            fs.readFile('Musics/PopList', 'utf8', function(err, Music_info_list){
-                var musicpage = MusicFlexMusicPage.HTML(musics, Music_info_list);
-                res.send(musicpage)
-            })
+        fs.readFile('Musics/PopList', 'utf8', function(err, Music_info_list){
+            var musicpage = MusicFlexMusicPage.HTML(Music_info_list);
+            res.send(musicpage)
         })
     })
 })

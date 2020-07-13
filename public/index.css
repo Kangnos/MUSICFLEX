@@ -8,10 +8,11 @@ span, a{
 }
 
 body {
-    background: rgb(247, 247, 247);
+    background: #121111;
     font-family: Tahoma, Arial;
     font-size: 18px;
     font-weight: 400;
+    color: #ebebeb;
 }
 .Logo{
     text-align: left;
@@ -20,7 +21,7 @@ body {
     margin-bottom: 10px;
 }
 #logo{
-    color: black;
+    color: #ebebeb;
 }
 
 /* darkmode button */
