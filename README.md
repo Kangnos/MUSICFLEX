@@ -38,4 +38,4 @@
 #### Plan D succeed 2020.6.28
 
 
-
+I lost my phone pattern
