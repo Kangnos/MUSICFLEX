@@ -30,6 +30,7 @@
 #### Plan C By using youtube API auto play function, Make musics play auto.
 #### Plan D Dark Mode and Light Mode control with toggle.
 #### Plan E Save darkmode with cookie-parser and change html format to ejs format
+#### Plan F Make a MusicList that "main.js" can get the list to make a music list in the web with python "MusicList Maker.py"
 
 ### Succeed Plans
 #### Plan C succeed 2020.6.10
@@ -37,3 +38,4 @@
 #### Plan D succeed 2020.6.28
 
 
+I lost my phone pattern
