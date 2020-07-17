@@ -69,6 +69,8 @@ body {
     width: 800px;
     padding: 5px 0;
     height: 450px;
+    font-size: 30px;
+    font-weight: bold;
 }
 #Music_name{
     font-size: 40px;
