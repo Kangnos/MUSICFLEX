@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
     res.send(mainpage)
 });
 
-app.get('/Hiphop', function (req, res) {   
+app.get('/Hiphop', function (req, res) {  
     fs.readdir('./Musics', function (err, filelist) {
         fs.readFile('Musics/HiphopList', 'utf8', function(err, Music_info_list){
             var musicpage = MusicFlexMusicPage.HTML(Music_info_list);
