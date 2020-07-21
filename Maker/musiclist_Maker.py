@@ -5,10 +5,11 @@ PlatformList = PlatformList_a.read();
 PlatformList = PlatformList.strip()
 PlatformList = re.split(":|\n|:\n", PlatformList)
 
-MusicsToAddList = []
-for i in range(1, len(PlatformList)):
-    data = "\n"+"{\n" + "    vid: " + '"' + PlatformList[i] + '"\n' + "    artist: " + '"' + PlatformList[i-2] + '"\n' + "    musictitle: " + '"' + PlatformList[i-1] + '"' + "\n},"
+Musicdata = ""
 
-print(MusicsToAddList)
+for i in range(0, len(PlatformList)):
+    Musicdata += "\n"+"{\n" + "    vid: " + '"' + PlatformList[i+1] + '",\n' + "    artist: " + '"' + PlatformList[i] + '",\n' + "    musictitle: " + '"' + PlatformList[i+1] + '"' + "\n},"
+# MainList.write(Musicdata)
+print(Musicdata)
+print(PlatformList)
 print(len(PlatformList))
-print(data)
