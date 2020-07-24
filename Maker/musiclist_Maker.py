@@ -6,14 +6,15 @@ PlatformList = PlatformList.strip()
 PlatformList = re.split(":|\n|:\n", PlatformList)
 
 Musicdata = ""
+vidnum = 1
+artistnum = 0
+musicnum = 2
 
 for i in range(0, (len(PlatformList)// 3)):
-    if i == 0:
-        Musicdata += "\n"+"{\n" + "    vid: " + '"' + PlatformList[i+2] + '",\n' + "    artist: " + '"' + PlatformList[i] + '",\n' + "    musictitle: " + '"' + PlatformList[i+1] + '"' + "\n},"
-    elif i != 0:
-        Musicdata += "\n"+"{\n" + "    vid: " + '"' + PlatformList[i+4] + '",\n' + "    artist: " + '"' + PlatformList[i+3] + '",\n' + "    musictitle: " + '"' + PlatformList[i+2] + '"' + "\n},"
-# MainList.write(Musicdata)
+    Musicdata += "\n"+"{\n" + "    artist: " + '"' + PlatformList[artistnum] + '",\n' + "    musictitle: " + '"' + PlatformList[vidnum] + '",\n' + "    vid: " + '"' + PlatformList[musicnum] + '"' + "\n},"
+    vidnum += 3
+    artistnum += 3
+    musicnum += 3
+MainList.write(Musicdata)
 print(Musicdata)
 print(PlatformList)
-print(len(PlatformList))
-print("\n"+"{\n" + "    vid: " + '"' + PlatformList[i+2] + '",\n' + "    artist: " + '"' + PlatformList[i] + '",\n' + "    musictitle: " + '"' + PlatformList[i+1] + '"' + "\n},")
