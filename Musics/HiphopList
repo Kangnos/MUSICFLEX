@@ -4,6 +4,11 @@
     vid: "AkmJop2WUQA"
 },
 {
+    artist: "NF",
+    musictitle: "Time",
+    vid: "AkmJop2WUQA"
+},
+{
     artist: "Lil Tecca",
     musictitle: "Ransom",
     vid: "XLofd-v_Bas"
@@ -25,8 +30,8 @@
 },
 {
     artist: "Eminem",
-    musictitle: "Lose Yourself",
-    vid: "ZjB-sz62tJ8"
+    musictitle: "Not Afraid",
+    vid: "FEAFvuAZ2c"
 },
 {
     artist: "Eminem",
@@ -109,7 +114,12 @@
     vid: "HOGJHEuFjEQ"
 },
 {
-    artist: "Dead Eyes",
-    musictitle: "Powfu",
+    artist: "Powfu",
+    musictitle: "Dead Eyes",
     vid: "n78Gg6_zEQg"
-}
+},
+{
+    artist: "Logic",
+    musictitle: "EveryDay",
+    vid: "FPf3evOLPwQ"
+},
