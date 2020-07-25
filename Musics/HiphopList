@@ -24,6 +24,11 @@
     vid: "Zh9p-6JfrSo"
 },
 {
+    artist: "Post Malone, dababy",
+    musictitle: "Enemies",
+    vid: "qT_y5Yc8jSA "
+},
+{
     artist: "Eminem",
     musictitle: "Not Afraid",
     vid: "FEAFvuAZ2c"
@@ -43,3 +48,73 @@
     musictitle: "Fast",
     vid: "LCy8ssz6pQo"
 },
+{
+    artist: "Logic",
+    musictitle: "1-800-273-8255",
+    vid: "XUpKgSlkNDA"
+},
+{
+    artist: "Khalid",
+    musictitle: "Location",
+    vid: "Jxcoi0GZVLU"
+},
+{
+    artist: "Logic",
+    musictitle: "Homicide",
+    vid: "mfqsEpjEtrw"
+},
+{
+    artist: "Eminem",
+    musictitle: "Godzilla",
+    vid: "9XvXF1LrWgA"
+},
+{
+    artist: "A2Z",
+    musictitle: "Logic",
+    vid: "dO3sLMxRvmo"
+},
+{
+    artist: "Lil Nax X",
+    musictitle: "Panini",
+    vid: "bG_NI-cCxDs"
+},
+{
+    artist: "Khalid",
+    musictitle: "OTW",
+    vid: "v6myZILeAJw"
+},
+{
+    artist: "Robby Ricch",
+    musictitle: "The Box",
+    vid: "IxJjY5T9yag"
+},
+{
+    artist: "Logic",
+    musictitle: "YSIV",
+    vid: "4sxWZZ7NeTI"
+},
+{
+    artist: "Juice WRLD",
+    musictitle: "Come & Go",
+    vid: "lXKM_kGNJTQ"
+},
+{
+    artist: "Jack Harlow",
+    musictitle: "What's Popin'",
+    vid: "EzrM9RJnAhA"
+},
+{
+    artist: "Internet Money",
+    musictitle: "Somebody",
+    vid: "_23TeCcQM5U"
+},
+{
+    artist: "Lil Mosey",
+    musictitle: "Blueberry Faygo",
+    vid: "HOGJHEuFjEQ"
+},
+{
+    artist: "Dead Eyes",
+    musictitle: "Powfu",
+    vid: "n78Gg6_zEQg"
+}
