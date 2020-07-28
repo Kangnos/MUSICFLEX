@@ -29,9 +29,9 @@
     vid: "FEAFvuAZ2c"
 },
 {
-    artist: "Eminem",
-    musictitle: "RapGod",
-    vid: "S7cQ3b0iqLo"
+    artist: "Kanye West & Lil Pump",
+    musictitle: "I Love It",
+    vid: "Y_ixswnkhtA"
 },
 {
     artist: "iaan dior",
@@ -64,14 +64,19 @@
     vid: "9XvXF1LrWgA"
 },
 {
-    artist: "Logic",
-    musictitle: "A2Z",
+    artist: "A2Z",
+    musictitle: "Logic",
     vid: "dO3sLMxRvmo"
 },
 {
     artist: "Lil Nax X",
     musictitle: "Panini",
     vid: "bG_NI-cCxDs"
+},
+{
+    artist: "Eminem",
+    musictitle: "RapGod",
+    vid: "S7cQ3b0iqLo"
 },
 {
     artist: "Khalid",
@@ -87,6 +92,11 @@
     artist: "NF",
     musictitle: "Paralyzed",
     vid: "aZ_GhENcIu4"
+},
+{
+    artist: "Kanye West",
+    musictitle: "Gold Digger",
+    vid: "uVL4d8P44eM"
 },
 {
     artist: "Future",
@@ -107,6 +117,11 @@
     artist: "Jack Harlow",
     musictitle: "What's Popin'",
     vid: "EzrM9RJnAhA"
+},
+{
+    artist: "DaBaby",
+    musictitle: "ROCKSTAR",
+    vid: "h0w5g0p9RsM"
 },
 {
     artist: "Internet Money",
@@ -147,6 +162,11 @@
     artist: "Ayo & Teo",
     musictitle: "Rolex",
     vid: "rCx4NFNuYgI"
+},
+{
+    artist: "Travis Scott",
+    musictitle: "SICKO MODE",
+    vid: "5rH9v7geLr8"
 },
 {
     artist: "Tyga",
@@ -237,4 +257,44 @@
     artist: "Rob $tone",
     musictitle: "Chill Bill",
     vid: "U7soh5-EjGY"
+},
+{
+    artist: "DaBaby",
+    musictitle: "BOP",
+    vid: "MKr_idr2EwQ"
+},
+{
+    artist: "xxxtentacion",
+    musictitle: "Look At Me!",
+    vid: "I0FKqmoK56I"
+},
+{
+    artist: "Travis Scott",
+    musictitle: "goosebumps",
+    vid: "9mahKFNuHqM"
+},
+{
+    artist: "ROSALÍA",
+    musictitle: "TKN",
+    vid: "VPEBSFW-2N8"
+},
+{
+    artist: "Kanye West",
+    musictitle: "Wash Us In The Blood",
+    vid: "zLxL5Q-WmkU"
+},
+{
+    artist: "Donald Glover",
+    musictitle: "This Is America",
+    vid: "ddJqNY__9U8"
+},
+{
+    artist: "Lil Pump",
+    musictitle: "Boss",
+    vid: "gbr3lD_heSI"
+},
+{
+    artist: "JAY-Z",
+    musictitle: "Empire State Of Mind",
+    vid: "_ydMlTassYc"
 },
