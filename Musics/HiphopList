@@ -64,8 +64,8 @@
     vid: "9XvXF1LrWgA"
 },
 {
-    artist: "A2Z",
-    musictitle: "Logic",
+    artist: "Logic",
+    musictitle: "A2Z",
     vid: "dO3sLMxRvmo"
 },
 {
@@ -227,4 +227,14 @@
     artist: "Drake",
     musictitle: "God's Plan",
     vid: "m1a_GqJf02M"
+},
+{
+    artist: "DJ khaled",
+    musictitle: "POPSTAR",
+    vid: "_mumcOISqco"
+},
+{
+    artist: "Rob $tone",
+    musictitle: "Chill Bill",
+    vid: "U7soh5-EjGY"
 },
