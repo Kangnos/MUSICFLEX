@@ -49,6 +49,11 @@
     vid: "XUpKgSlkNDA"
 },
 {
+    artist: "Joyner Lucas",
+    musictitle: "Will(remix)",
+    vid: "HeFUhEUDn54"
+},
+{
     artist: "Khalid",
     musictitle: "Location",
     vid: "Jxcoi0GZVLU"
@@ -189,6 +194,11 @@
     vid: "mzyYJWAAx5E"
 },
 {
+    artist: "Joyner Lucas",
+    musictitle: "Will",
+    vid: "nOSsU6K0LjU"
+},
+{
     artist: "Kendrick Lamar",
     musictitle: "HUMBLE.",
     vid: "H4RELGc9su8"
@@ -297,4 +307,9 @@
     artist: "JAY-Z",
     musictitle: "Empire State Of Mind",
     vid: "_ydMlTassYc"
+},
+{
+    artist: "Joyner Lucas",
+    musictitle: "Isis",
+    vid: "duF_-8KfsiQ"
 },
