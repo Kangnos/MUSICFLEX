@@ -11,7 +11,7 @@ Pop_PlatformList = Pop_PlatformList_a.read();
 Pop_PlatformList = Pop_PlatformList.strip()
 Pop_PlatformList = re.split(":|\n|:\n", Pop_PlatformList)
 
-Musicdata = ""
+Musicdata = ["", ""]
 vidnum = 1
 artistnum = 0
 musicnum = 2
@@ -19,19 +19,21 @@ musicnum = 2
 janre = [Hiphop_PlatformList, Pop_PlatformList]
 
 for j in range(0,len(janre)):
+    print(j)
     for i in range(0, (len(janre[j])// 3)):
         if i == 0:  
-            Musicdata += "{\n" + "    artist: " + '"' + janre[j][artistnum] + '",\n' + "    musictitle: " + '"' + janre[j][vidnum] + '",\n' + "    vid: " + '"' + janre[j][musicnum] + '"' + "\n},"
+            Musicdata[j] += "{\n" + "    artist: " + '"' + janre[j][artistnum] + '",\n' + "    musictitle: " + '"' + janre[j][vidnum] + '",\n' + "    vid: " + '"' + janre[j][musicnum] + '"' + "\n},"
         else:
             vidnum += 3
             artistnum += 3
             musicnum += 3
-            Musicdata += "\n"+"{\n" + "    artist: " + '"' + janre[j][artistnum] + '",\n' + "    musictitle: " + '"' + janre[j][vidnum] + '",\n' + "    vid: " + '"' + janre[j][musicnum] + '"' + "\n},"
+            Musicdata[j] += "\n"+"{\n" + "    artist: " + '"' + janre[j][artistnum] + '",\n' + "    musictitle: " + '"' + janre[j][vidnum] + '",\n' + "    vid: " + '"' + janre[j][musicnum] + '"' + "\n},"
 
     if j == 0:
-        HiphopList.write(Musicdata)
+        HiphopList.write(Musicdata[0])
     if j == 1:
-        PopList.write(Musicdata)
-    print(Musicdata)
+        PopList.write(Musicdata[1])
     print(Hiphop_PlatformList)
     print(Pop_PlatformList)
+    print(Musicdata[0])
+    print(Musicdata[1])
