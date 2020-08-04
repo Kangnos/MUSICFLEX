@@ -1,0 +1,57 @@
+icon: 🎧 
+music list frame: <div class="Music"><a href="/"><span>🎧 </span> </a></div>
+iframe width style: width="550" height="320" 
+<iframe width="550" height="320"   src="https://www.youtube.com/embed/9XvXF1LrWgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="550" height="320"  class="player" src="https://www.youtube.com/embed/${videolinkcode}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="550" height="320"  class="player" src="https://www.youtube.com/embed/${videolinkcode}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="Type"><a href="/Rap" id=""><span>▶</span> Rap</a></div>
+
+
+
+
+<script src="http://www.youtube.com/player_api"></script>
+
+
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+        height: '100%',
+        width: '100%',
+        playerVars: {
+            'autoplay': 1
+        },
+        videoId: '${videolinkcode}',
+        events: {
+        'onReady': onPlayerReady,
+        'onStateChange': onPlayerStateChange
+        }
+    });
+}
+
+function onPlayerReady(event) {
+    event.target.playVideo();
+}
+
+
+function onPlayerStateChange(event) {
+    if (event.data === 0) {
+        window.open("${nextlocation}", "_self");
+    }
+}
+
+
+
+
+{
+    vid: "",
+    artist: "",
+    musictitle: ""
+}
+
+<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(15)"><span>🎧 </span> </span></div>
+
+for (let i = 0; i < videos.length; i++) {
+    var item = '<div class="Music"><span style="cursor: pointer;" class="Music_name" onclick = "onPlayvideo(1)"><span>🎧 </span>' + videos[video_code_number].artist + " - " + videos[video_code_number].musictitle + '</span></div>'
+    $(item).prependTo('#playlist');
+    $(item).appendTo('#playlist');
+}
