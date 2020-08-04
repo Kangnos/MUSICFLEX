@@ -9,11 +9,14 @@
     vid: "XLofd-v_Bas"
 },
 {
+<<<<<<< HEAD
     artist: "Juice WRLD",
     musictitle: "Robbery",
     vid: "wYwkVyDl4Oo"
 },
 {
+=======
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
     artist: "Eminem",
     musictitle: "Darkness",
     vid: "skn7T_XPQnY"
@@ -26,17 +29,25 @@
 {
     artist: "NF",
     musictitle: "The Search",
+<<<<<<< HEAD
     vid: "Zh9p-6JfrSo"
 },
 {
     artist: "A Boogie Wit da Hoodie",
     musictitle: "Look Back at It",
     vid: "VbU-1sn1RE4"
+=======
+    vid: "Zh9p-6JfrSo "
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
 },
 {
     artist: "Eminem",
     musictitle: "Not Afraid",
+<<<<<<< HEAD
     vid: "JFEAFvuAZ2c"
+=======
+    vid: "-grPV-Fae6I"
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
 },
 {
     artist: "Kanye West & Lil Pump",
@@ -54,11 +65,14 @@
     vid: "LCy8ssz6pQo"
 },
 {
+<<<<<<< HEAD
     artist: "Eminem",
     musictitle: "Lucky You (ft. Joyner Lucas)",
     vid: "1arz9Q9qBas"
 },
 {
+=======
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
     artist: "Logic",
     musictitle: "1-800-273-8255",
     vid: "XUpKgSlkNDA"
@@ -76,7 +90,11 @@
 {
     artist: "Logic",
     musictitle: "Homicide",
+<<<<<<< HEAD
     vid: "NoQQg8wA9BY"
+=======
+    vid: "mfqsEpjEtrw"
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
 },
 {
     artist: "Eminem",
@@ -84,6 +102,7 @@
     vid: "9XvXF1LrWgA"
 },
 {
+<<<<<<< HEAD
     artist: "Logic",
     musictitle: "A2Z",
     vid: "dO3sLMxRvmo"
@@ -94,6 +113,13 @@
     vid: "Sya7meavGmo"
 },
 {
+=======
+    artist: "A2Z",
+    musictitle: "Logic",
+    vid: "dO3sLMxRvmo"
+},
+{
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
     artist: "Lil Nax X",
     musictitle: "Panini",
     vid: "bG_NI-cCxDs"
@@ -229,11 +255,14 @@
     vid: "mPx83NL1b3k"
 },
 {
+<<<<<<< HEAD
     artist: "Juice WRLD",
     musictitle: "Empty",
     vid: "bf1Vj9vVR-0"
 },
 {
+=======
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
     artist: "Rich Gang",
     musictitle: "Lifestyle",
     vid: "atKSvW8DVos"
@@ -254,9 +283,15 @@
     vid: "whEYfFMtkLs"
 },
 {
+<<<<<<< HEAD
     artist: "Juice WRLD",
     musictitle: "Lucid Dreams",
     vid: "YWBohgkedIM"
+=======
+    artist: "Tekashi 6ix9ine",
+    musictitle: "KOODA",
+    vid: "desImaA2luA"
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
 },
 {
     artist: "The Notorious B.I.G.",
@@ -269,11 +304,14 @@
     vid: "4sNCyiyIc_8"
 },
 {
+<<<<<<< HEAD
     artist: "Logic",
     musictitle: "DadBod",
     vid: "KJTV87NHDN8"
 },
 {
+=======
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
     artist: "Eminem",
     musictitle: "KILLSHOT",
     vid: "FxQTY-W6GIo"
@@ -347,6 +385,7 @@
     artist: "Juice WRLD",
     musictitle: "Hide",
     vid: "uYHNdTPV7pM"
+<<<<<<< HEAD
 },
 {
     artist: "Logic",
@@ -418,3 +457,6 @@
     musictitle: "Low Life",
     vid: "j3OzH8URrng"
 }
+=======
+},
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54

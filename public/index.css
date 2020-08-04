@@ -10,13 +10,21 @@ span, a{
 body {
     background: #121111;
     font-family: Tahoma, Arial;
+<<<<<<< HEAD
     font-size: 1em;
+=======
+    font-size: 18px;
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
     font-weight: 400;
     color: #ebebeb;
 }
 .Logo{
     text-align: left;
+<<<<<<< HEAD
     font-size: 29px;
+=======
+    font-size: 30px;
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
     padding-left: 10px;
     margin-bottom: 10px;
 }
@@ -29,7 +37,10 @@ body {
     padding-left: 7px;
     float: right;
     margin-top: 7px;
+<<<<<<< HEAD
     margin-right: 10px;
+=======
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
 }
 
 #toggle-button{
@@ -38,7 +49,10 @@ body {
     background: gray;
     border-radius: 30px;
     padding: 5px;
+<<<<<<< HEAD
     margin-left: 10px;
+=======
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
 }
 #toggle-button > .inner-circle{
     width:  20px;
@@ -142,7 +156,11 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* 만약 창 화면 가로가 1410 px이하가 되면 */
+=======
+/* 만약 창 화면 가로가 1410 px이상이 되면 */
+>>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
 @media screen and (max-width: 1430px) {
     body,#iframe {margin:0;padding:0;font-size: 15px;}
     #Main-panel{width: 100%;}
