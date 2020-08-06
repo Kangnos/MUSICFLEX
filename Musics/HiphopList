@@ -41,7 +41,7 @@
 {
     artist: "Kanye West & Lil Pump",
     musictitle: "I Love It",
-    vid: "Y_ixswnkhtA"
+    vid: "qaNMoVGlsUU"
 },
 {
     artist: "iaan dior",
@@ -112,11 +112,6 @@
     artist: "Eminem",
     musictitle: "Not Afraid",
     vid: "FEAFvuAZ2c"
-},
-{
-    artist: "Kanye West & Lil Pump",
-    musictitle: "I Love It",
-    vid: "Y_ixswnkhtA"
 },
 {
     artist: "iaan dior",
@@ -331,7 +326,7 @@
 {
     artist: "MGK",
     musictitle: "Rap Devil",
-    vid: "4sNCyiyIc_8"
+    vid: "koUlVTyeQWc"
 },
 {
     artist: "Logic",
@@ -347,11 +342,6 @@
     artist: "The Notorious B.I.G.",
     musictitle: "Juicy",
     vid: "7Y8VPQcPHhY"
-},
-{
-    artist: "MGK",
-    musictitle: "Rap Devil",
-    vid: "4sNCyiyIc_8"
 },
 {
     artist: "Eminem",
@@ -502,4 +492,19 @@
     artist: "Juice WRLD",
     musictitle: "Hide",
     vid: "uYHNdTPV7pM"
+},
+{
+    artist: "NF",
+    musictitle: "Lie",
+    vid: "1k5QIbweEmU"
+},
+{
+    artist: "S1mba",
+    musictitle: "Rover (feat. DTG)",
+    vid: "KLesRVVR_0g"
+},
+{
+    artist: "Young T & Bugsey",
+    musictitle: "Don't Rush",
+    vid: "TaKKajTE3qU"
 },
