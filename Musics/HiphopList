@@ -104,11 +104,6 @@
     vid: "JcWOSgImiRw"
 },
 {
-    artist: "NF",
-    musictitle: "The Search",
-    vid: "Zh9p-6JfrSo "
-},
-{
     artist: "Eminem",
     musictitle: "Not Afraid",
     vid: "FEAFvuAZ2c"
@@ -122,11 +117,6 @@
     artist: "Juice WRLD",
     musictitle: "Fast",
     vid: "LCy8ssz6pQo"
-},
-{
-    artist: "Logic",
-    musictitle: "1-800-273-8255",
-    vid: "XUpKgSlkNDA"
 },
 {
     artist: "Joyner Lucas",
@@ -507,4 +497,14 @@
     artist: "Young T & Bugsey",
     musictitle: "Don't Rush",
     vid: "TaKKajTE3qU"
+},
+{
+    artist: "Post Malone",
+    musictitle: "Congratulations(ft.Quavo)",
+    vid: "FFhGqNa-Waw"
+},
+{
+    artist: "Luke Christopher",
+    musictitle: "Lot To Learn",
+    vid: "zqhW0FCW_4g"
 },
