@@ -500,11 +500,31 @@
 },
 {
     artist: "Post Malone",
-    musictitle: "Congratulations(ft.Quavo)",
+    musictitle: "Congratulations (ft.Quavo)",
     vid: "FFhGqNa-Waw"
 },
 {
     artist: "Luke Christopher",
     musictitle: "Lot To Learn",
     vid: "zqhW0FCW_4g"
+},
+{
+    artist: "Post Malone, Swae Lee",
+    musictitle: "Sunflower",
+    vid: "r7Rn4ryE_w8"
+},
+{
+    artist: "Macklemore",
+    musictitle: "Glorious (feat. Skylar Grey)",
+    vid: "M55lk5svVI4"
+},
+{
+    artist: "Lil Nas X",
+    musictitle: "Panini",
+    vid: "bG_NI-cCxDs"
+},
+{
+    artist: "Post Malone",
+    musictitle: "Wow.",
+    vid: "plm-JYVw7Mw"
 },
