@@ -14,6 +14,11 @@
     vid: "wYwkVyDl4Oo"
 },
 {
+    artist: "MGK, X Ambassadors, Bebe Rexha",
+    musictitle: "Home",
+    vid: "mrukuuMUu_s"
+},
+{
     artist: "Eminem",
     musictitle: "Darkness",
     vid: "skn7T_XPQnY"
@@ -32,6 +37,11 @@
     artist: "A Boogie Wit da Hoodie",
     musictitle: "Look Back at It",
     vid: "VbU-1sn1RE4"
+},
+{
+    artist: "Trevor Daniel",
+    musictitle: "Falling",
+    vid: "iY2VJp6uUzk"
 },
 {
     artist: "Eminem",
@@ -64,24 +74,9 @@
     vid: "GaFoS-Kza8U"
 },
 {
-    artist: "Joyner Lucas",
-    musictitle: "Will(remix)",
-    vid: "HeFUhEUDn54"
-},
-{
     artist: "Khalid",
     musictitle: "Location",
     vid: "Jxcoi0GZVLU"
-},
-{
-    artist: "Logic",
-    musictitle: "Homicide",
-    vid: "NoQQg8wA9BY"
-},
-{
-    artist: "Eminem",
-    musictitle: "Godzilla",
-    vid: "9XvXF1LrWgA"
 },
 {
     artist: "Logic",
@@ -102,11 +97,6 @@
     artist: "xxxtentacion",
     musictitle: "Fuck love",
     vid: "JcWOSgImiRw"
-},
-{
-    artist: "Eminem",
-    musictitle: "Not Afraid",
-    vid: "FEAFvuAZ2c"
 },
 {
     artist: "iaan dior",
@@ -309,11 +299,6 @@
     vid: "YWBohgkedIM"
 },
 {
-    artist: "The Notorious B.I.G.",
-    musictitle: "Juicy",
-    vid: "7Y8VPQcPHhY"
-},
-{
     artist: "MGK",
     musictitle: "Rap Devil",
     vid: "koUlVTyeQWc"
@@ -327,11 +312,6 @@
     artist: "Tekashi 6ix9ine",
     musictitle: "KOODA",
     vid: "desImaA2luA"
-},
-{
-    artist: "The Notorious B.I.G.",
-    musictitle: "Juicy",
-    vid: "7Y8VPQcPHhY"
 },
 {
     artist: "Eminem",
@@ -527,4 +507,39 @@
     artist: "Post Malone",
     musictitle: "Wow.",
     vid: "plm-JYVw7Mw"
+},
+{
+    artist: "Eminem",
+    musictitle: "River (ft. Ed sheeran)",
+    vid: "3QQt55D4J_Y"
+},
+{
+    artist: "B.o.B",
+    musictitle: "Airplanes (ft. Hayley Williams)",
+    vid: "pfEZW-1eDl8"
+},
+{
+    artist: "iaan dior",
+    musictitle: "Pretty Girls",
+    vid: "baWNorCIVzk"
+},
+{
+    artist: "The Kid LAROI",
+    musictitle: " Diva (ft. Lil Tecca)",
+    vid: "p3vbH36RdM0"
+},
+{
+    artist: "Juice WRLD",
+    musictitle: "Righteous",
+    vid: "FsfVmCgfU5U"
+},
+{
+    artist: "Lil Tecca",
+    musictitle: "Out Of Love (ft. Internet Money)",
+    vid: "-nsyJwf1Kp8"
+},
+{
+    artist: "Iaan dior",
+    musictitle: "gone girl",
+    vid: "amNErh32W9I"
 },
