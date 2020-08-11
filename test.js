@@ -80,6 +80,7 @@ var count = 0
 
 // Buttons functions
 function BackMusic() {
+    videos.length == 0
     console.log(index)
     count++
     player.loadVideoById(listvideos[index-1 ])
