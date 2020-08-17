@@ -7,9 +7,6 @@ var player;
 var MusicName = document.getElementById("Music_name");
 var Pagetitle = document.getElementById("Pagetitle");
 
-var videos = [
-    ${ Music_info_list }
-];
 var index = 0;
 var encoded_data = "";
 for (let i = 0; i < videos.length; i++) {
@@ -113,9 +110,8 @@ function NextMusic() {
         Pagetitle.innerHTML = videos[0].musictitle;
     }
     else {
-        player.loadVideoById(listvideos[index + count])
-        MusicName.innerHTML = videos[index + count].artist + " - " + videos[index + count].musictitle;
-        Pagetitle.innerHTML = videos[index + count].musictitle;
+        player.loadVideoById(listvideos[count])
+        MusicName.innerHTML = videos[count].artist + " - " + videos[count].musictitle;
+        Pagetitle.innerHTML = videos[count].musictitle;
     }
 }
-
