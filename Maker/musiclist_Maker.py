@@ -19,19 +19,24 @@ musicnum = 2
 
 janre = [Hiphop_PlatformList, Pop_PlatformList]
 
-for j in range(0,(len(janre))):
-    for i in range(len(janre[j])//3): # This part is the problem that I have to fix today or tomorrow. I can nailed it!
-        if i == 0: 
-            Musicdata[j] += ("{\n" + "    artist: " + '"' + janre[j][artistnum] + '",\n' + "    musictitle: " + '"' + janre[j][vidnum] + '",\n' + "    vid: " + '"' + janre[j][musicnum] + '"' + "\n},")
-        else:
-            vidnum += 3
-            artistnum += 3
-            musicnum += 3
-            Musicdata[j] += ("\n"+"{\n" + "    artist: " + '"' + janre[j][artistnum] + '",\n' + "    musictitle: " + '"' + janre[j][vidnum] + '",\n' + "    vid: " + '"' + janre[j][musicnum] + '"' + "\n},")
+for i in range(len(janre[0])//3): # This part is the problem that I have to fix today or tomorrow. I can nailed it!
+    if i == 0: 
+        Musicdata[0] += ("{\n" + "    artist: " + '"' + janre[0][artistnum] + '",\n' + "    musictitle: " + '"' + janre[0][vidnum] + '",\n' + "    vid: " + '"' + janre[0][musicnum] + '"' + "\n},")
+    else:
+        vidnum += 3
+        artistnum += 3
+        musicnum += 3
+        Musicdata[0] += ("\n"+"{\n" + "    artist: " + '"' + janre[0][artistnum] + '",\n' + "    musictitle: " + '"' + janre[0][vidnum] + '",\n' + "    vid: " + '"' + janre[0][musicnum] + '"' + "\n},")
+    HiphopList.write(Musicdata[0])
 
-    if j == 0:
-        HiphopList.write(Musicdata[0])
-    if j == 1:
-        PopList.write(Musicdata[1])
-    print(Musicdata)
-    print(Musicdata[0])
+for i in range(len(janre[1])//3): # This part is the problem that I have to fix today or tomorrow. I can nailed it!
+    if i == 0: 
+        Musicdata[1] += ("{\n" + "    artist: " + '"' + janre[1][artistnum] + '",\n' + "    musictitle: " + '"' + janre[1][vidnum] + '",\n' + "    vid: " + '"' + janre[1][musicnum] + '"' + "\n},")
+    else:
+        vidnum += 3
+        artistnum += 3
+        musicnum += 3
+        Musicdata[1] += ("\n"+"{\n" + "    artist: " + '"' + janre[1][artistnum] + '",\n' + "    musictitle: " + '"' + janre[1][vidnum] + '",\n' + "    vid: " + '"' + janre[1][musicnum] + '"' + "\n},")
+    HiphopList.write(Musicdata[1])
+
+print(Musicdata)
