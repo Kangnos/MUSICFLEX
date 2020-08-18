@@ -26,18 +26,18 @@
 ### Plans 2020.6.2 (or Idea)
 
 #### Plan A Crolling song lyrics in google and show lyrics in the song
-<<<<<<< HEAD
+
 #### Plan B Crolling Weather and show recomend song packages. (ex> good song when rainy day)
 #### Plan C By using youtube API auto play function, Make musics play auto.
 #### Plan D Dark Mode and Light Mode control with toggle.
 #### Plan E Save darkmode with cookie-parser and change html format to ejs format
 #### Plan F Make a MusicList that "main.js" can get the list to make a music list in the web with python "MusicList Maker.py"
-=======
+
 #### Plan E Make a MusicList that "main.js" can get the list to make a music list in the web with python "MusicList Maker.py"
 #### Plan F Make a stop, play, shuffle, loop UI button by using Youtube API
 #### Plan G modify some UI more better
 
->>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
+
 
 ### Succeed Plans
 #### Plan C succeed 2020.6.10
@@ -46,8 +46,6 @@
 <<<<<<< HEAD
 
 
-I lost my phone pattern
-저 7월 22일 시험인데 국어랑 영어랑 과학시험만이라도 잘 보게 해주세요
 =======
 #### Plan E succeed 2020 07 20
->>>>>>> caca75e1b75aabacd511ca36d388f96aab011a54
+
