@@ -19,16 +19,6 @@
     vid: "mrukuuMUu_s"
 },
 {
-    artist: "Eminem",
-    musictitle: "Darkness",
-    vid: "skn7T_XPQnY"
-},
-{
-    artist: "xxxtentacion",
-    musictitle: "Fuck love",
-    vid: "JcWOSgImiRw"
-},
-{
     artist: "NF",
     musictitle: "The Search",
     vid: "Zh9p-6JfrSo"
@@ -54,16 +44,6 @@
     vid: "qaNMoVGlsUU"
 },
 {
-    artist: "iaan dior",
-    musictitle: "Emotions",
-    vid: "4ItX3XIaG5Q"
-},
-{
-    artist: "Juice WRLD",
-    musictitle: "Fast",
-    vid: "LCy8ssz6pQo"
-},
-{
     artist: "Eminem",
     musictitle: "Lucky You (ft. Joyner Lucas)",
     vid: "1arz9Q9qBas"
@@ -72,16 +52,6 @@
     artist: "Logic",
     musictitle: "1-800-273-8255",
     vid: "GaFoS-Kza8U"
-},
-{
-    artist: "Khalid",
-    musictitle: "Location",
-    vid: "Jxcoi0GZVLU"
-},
-{
-    artist: "Logic",
-    musictitle: "A2Z",
-    vid: "dO3sLMxRvmo"
 },
 {
     artist: "NLE CHOPPA",
@@ -129,14 +99,9 @@
     vid: "9XvXF1LrWgA"
 },
 {
-    artist: "A2Z",
-    musictitle: "Logic",
+    artist: "Logic",
+    musictitle: "A2Z",
     vid: "dO3sLMxRvmo"
-},
-{
-    artist: "Lil Nax X",
-    musictitle: "Panini",
-    vid: "bG_NI-cCxDs"
 },
 {
     artist: "Eminem",
@@ -384,11 +349,6 @@
     vid: "duF_-8KfsiQ"
 },
 {
-    artist: "Juice WRLD",
-    musictitle: "Hide",
-    vid: "uYHNdTPV7pM"
-},
-{
     artist: "Logic",
     musictitle: "Heard Em Say",
     vid: "ak3ydgmIjoo"
@@ -415,8 +375,8 @@
 },
 {
     artist: "Bryce Vine",
-    musictitle: "La La Land",
-    vid: "v52Ecpq5qDQ"
+    musictitle: "La La Land (ft. YG)",
+    vid: "nRq_ukdtlBI"
 },
 {
     artist: "Post Malone",
@@ -464,11 +424,6 @@
     vid: "uYHNdTPV7pM"
 },
 {
-    artist: "NF",
-    musictitle: "Lie",
-    vid: "1k5QIbweEmU"
-},
-{
     artist: "S1mba",
     musictitle: "Rover (feat. DTG)",
     vid: "KLesRVVR_0g"
@@ -494,19 +449,9 @@
     vid: "r7Rn4ryE_w8"
 },
 {
-    artist: "Macklemore",
-    musictitle: "Glorious (feat. Skylar Grey)",
-    vid: "M55lk5svVI4"
-},
-{
     artist: "Lil Nas X",
     musictitle: "Panini",
     vid: "bG_NI-cCxDs"
-},
-{
-    artist: "Post Malone",
-    musictitle: "Wow.",
-    vid: "plm-JYVw7Mw"
 },
 {
     artist: "Eminem",
@@ -549,7 +494,7 @@
     vid: "6Y24X4oTQLA"
 },
 {
-    artist: "Bryce Vine",
-    musictitle: "La La Land (ft. YG)",
-    vid: "nRq_ukdtlBI"
+    artist: "POP SMOKE",
+    musictitle: "The Woo",
+    vid: "-Gkp-B7rIxY"
 },
