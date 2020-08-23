@@ -31,7 +31,8 @@ for j in range(0,(len(janre))):
             artistnum += 3
             musicnum += 3
             Musicdata[j] += ("\n"+"{\n" + "    artist: " + '"' + janre[j][artistnum] + '",\n' + "    musictitle: " + '"' + janre[j][musicnum] + '",\n' + "    vid: " + '"' + janre[j][vidnum] + '"' + "\n},")
-            print(janre[j][artistnum]+"-"+janre[j][musicnum], Musicdata[j].count(janre[j][musicnum]))
+            if Musicdata[j].count(janre[j][musicnum]) > 1:
+                overlap_songs += janre[j][musicnum]
     artistnum = 0
     musicnum = 1
     vidnum = 2
