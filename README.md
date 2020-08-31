@@ -36,15 +36,11 @@
 #### Plan E Make a MusicList that "main.js" can get the list to make a music list in the web with python "MusicList Maker.py"
 #### Plan F Make a stop, play, shuffle, loop UI button by using Youtube API
 #### Plan G modify some UI more better
-
-
+#### Plan H Get video id more easier by using youtube API.
 
 ### Succeed Plans
 #### Plan C succeed 2020.6.10
 #### Plan B is really difficult to do for me. But I think I can do it. JUST DO IT. 2020.6.24
 #### Plan D succeed 2020.6.28
 #### Plan E succeed 2020 07 20
-
-### Existing BUG
-##### Python MusicList maker bug. for lenght is may bug now I guess
 
