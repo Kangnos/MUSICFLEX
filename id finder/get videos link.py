@@ -26,14 +26,14 @@ browser.find_elements_by_xpath('/html/body/ytmusic-app/ytmusic-app-layout/ytmusi
 browser.find_elements_by_id('input')[1].send_keys(videoname) #검색창 영역에 원하는 youtuber입력
 browser.find_elements_by_id('input')[1].send_keys(Keys.RETURN)#엔터
 
-browser.find_element_by_xpath('/html/body/ytmusic-app/ytmusic-app-layout/div[3]/ytmusic-search-page/ytmusic-section-list-renderer/div[2]/ytmusic-shelf-renderer[2]/div[2]/ytmusic-responsive-list-item-renderer[1]/div[1]/ytmusic-item-thumbnail-overlay-renderer/div/ytmusic-play-button-renderer/div').click()
+browser.find_element_by_xpath('/html/body/ytmusic-app/ytmusic-app-layout/div[3]/ytmusic-search-page/ytmusic-section-list-renderer/div[2]/ytmusic-shelf-renderer[2]/div[2]/ytmusic-responsive-list-item-renderer[1]/div[1]/ytmusic-item-thumbnail-overlay-renderer/div/ytmusic-play-button-renderer/div/yt-icon').click()
 
 current_url = browser.current_url
 
 videocode = re.split('=|&', current_url)
 videocode = videocode[1]
 
-browser.close()
+
 
 print(videoname, videocode)
  
