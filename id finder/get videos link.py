@@ -7,6 +7,8 @@ import time
 import urllib.request
 import re
 
+
+
 videoname = input()
 
 
@@ -27,6 +29,8 @@ browser.find_elements_by_id('input')[1].send_keys(videoname) #검색창 영역�
 browser.find_elements_by_id('input')[1].send_keys(Keys.RETURN)#엔터
 
 browser.find_element_by_xpath('/html/body/ytmusic-app/ytmusic-app-layout/div[3]/ytmusic-search-page/ytmusic-section-list-renderer/div[2]/ytmusic-shelf-renderer[2]/div[2]/ytmusic-responsive-list-item-renderer[1]/div[1]/ytmusic-item-thumbnail-overlay-renderer/div/ytmusic-play-button-renderer/div/yt-icon').click()
+# browser.find_element_by_xpath("")
+
 
 current_url = browser.current_url
 

@@ -7,7 +7,9 @@ var player;
 var MusicName = document.getElementById("Music_name");
 var Pagetitle = document.getElementById("Pagetitle");
 
-var index = 0;
+var count = 0
+var index = 0
+
 var encoded_data = "";
 for (let i = 0; i < videos.length; i++) {
     encoded_data += videos[i].vid + ", ";
@@ -31,15 +33,16 @@ function onYouTubeIframeAPIReady() {
 }
 
 var video_code_number = 0;
-function onPlayvideo(index) {
-    var video = listvideos[index];
+function onPlayvideo(idx) {
+    var video = listvideos[idx];
     player.loadVideoById(video)
     console.log(video)
-    console.log(index)
-    MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
-    Pagetitle.innerHTML = videos[index].musictitle;
-    video_code_number = index
-    console.log(index)
+    console.log(idx)
+    MusicName.innerHTML = videos[idx].artist + " - " + videos[idx].musictitle;
+    Pagetitle.innerHTML = videos[idx].musictitle;
+    video_code_number = idx
+    console.log("idx", idx)
+    index += idx
 }
 
 function onPlayerReady(event) {
@@ -60,6 +63,7 @@ function onPlayerStateChange(event) {
                 videoId: videos[video_code_number].vid
             });
         }
+        count += video_code_number + 1
     }
 }
 
@@ -71,47 +75,5 @@ for (let i = 0; i < videos.length; i++) {
     document.getElementById("playlist").appendChild(musiclist);
 }
 
-var count = 0
-var index = 0
 
 // Buttons functions
-function BackMusic() {
-    console.log("index: " + index)
-    console.log("count: " + count)
-    console.log(videos[index])
-    if (index == 0) {
-        index = 0
-        player.loadVideoById(listvideos[0])
-        MusicName.innerHTML = videos[0].artist + " - " + videos[0].musictitle;
-        Pagetitle.innerHTML = videos[0].musictitle;
-    }
-    else {
-        player.loadVideoById(listvideos[index - 1])
-        MusicName.innerHTML = videos[index - 1].artist + " - " + videos[index - 1].musictitle;
-        Pagetitle.innerHTML = videos[index - 1].musictitle;
-        index -= 1
-        count -= 1
-    }
-}
-
-function NextMusic() {
-    console.log(index)
-    console.log(count)
-    index++
-    count++
-    if (index === 0) {
-        player.loadVideoById(listvideos[index + 1])
-        MusicName.innerHTML = videos[index + 1].artist + " - " + videos[index + 1].musictitle;
-        Pagetitle.innerHTML = videos[index + 1].musictitle;
-    }
-    if (index == (listvideos.length)) {
-        player.loadVideoById(listvideos[0])
-        MusicName.innerHTML = videos[0].artist + " - " + videos[0].musictitle;
-        Pagetitle.innerHTML = videos[0].musictitle;
-    }
-    else {
-        player.loadVideoById(listvideos[count])
-        MusicName.innerHTML = videos[count].artist + " - " + videos[count].musictitle;
-        Pagetitle.innerHTML = videos[count].musictitle;
-    }
-}
