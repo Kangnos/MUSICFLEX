@@ -7,8 +7,8 @@ var player;
 var MusicName = document.getElementById("Music_name");
 var Pagetitle = document.getElementById("Pagetitle");
 
-var count = 0
-var index = 0
+
+var index = 1
 
 var encoded_data = "";
 for (let i = 0; i < videos.length; i++) {
@@ -42,12 +42,12 @@ function onPlayvideo(idx) {
     Pagetitle.innerHTML = videos[idx].musictitle;
     video_code_number = idx
     console.log("idx", idx)
-    index += idx
+    index = idx
 }
 
 function onPlayerReady(event) {
-    MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
-    Pagetitle.innerHTML = videos[index].musictitle;
+    MusicName.innerHTML = videos[index-1].artist + " - " + videos[index-1].musictitle;
+    Pagetitle.innerHTML = videos[index-1].musictitle;
     event.target.playVideo();
 }
 
@@ -63,7 +63,7 @@ function onPlayerStateChange(event) {
                 videoId: videos[video_code_number].vid
             });
         }
-        count += video_code_number + 1
+        index = video_code_number
     }
 }
 
@@ -77,3 +77,41 @@ for (let i = 0; i < videos.length; i++) {
 
 
 // Buttons functions
+
+function BackMusic() {
+    console.log("index: " + index)
+    console.log(videos[index])
+    if (index == 0) {
+        index = 0
+        player.loadVideoById(listvideos[0])
+        MusicName.innerHTML = videos[0].artist + " - " + videos[0].musictitle;
+        Pagetitle.innerHTML = videos[0].musictitle;
+    }
+    else {
+        player.loadVideoById(listvideos[index - 1])
+        MusicName.innerHTML = videos[index - 1].artist + " - " + videos[index - 1].musictitle;
+        Pagetitle.innerHTML = videos[index - 1].musictitle;
+        index -= 1
+        count -= 1
+    }
+}
+
+function NextMusic() {
+    index += 1
+    console.log("index: " + index)
+    if (index === 0) {
+        player.loadVideoById(listvideos[index])
+        MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
+        Pagetitle.innerHTML = videos[index].musictitle;
+    }
+    if (index == (listvideos.length)) {
+        player.loadVideoById(listvideos[0])
+        MusicName.innerHTML = videos[0].artist + " - " + videos[0].musictitle;
+        Pagetitle.innerHTML = videos[0].musictitle;
+    }
+    else {
+        player.loadVideoById(listvideos[index+1])
+        MusicName.innerHTML = videos[index+1].artist + " - " + videos[index+1].musictitle;
+        Pagetitle.innerHTML = videos[index+1].musictitle;
+    }
+}
