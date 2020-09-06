@@ -42,7 +42,7 @@ function onPlayvideo(idx) {
     Pagetitle.innerHTML = videos[idx].musictitle;
     video_code_number = idx
     console.log("idx", idx)
-    index = idx
+    index = idx + 1
 }
 
 function onPlayerReady(event) {
