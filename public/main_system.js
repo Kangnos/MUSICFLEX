@@ -79,24 +79,21 @@ for (let i = 0; i < videos.length; i++) {
 // Buttons functions
 
 function BackMusic() {
-    console.log("index: " + index)
-    console.log(videos[index])
     if (index == 0) {
-        index = 0
         player.loadVideoById(listvideos[0])
         MusicName.innerHTML = videos[0].artist + " - " + videos[0].musictitle;
         Pagetitle.innerHTML = videos[0].musictitle;
+        index=0
     }
-    else {
-        player.loadVideoById(listvideos[index - 1])
-        MusicName.innerHTML = videos[index - 1].artist + " - " + videos[index - 1].musictitle;
-        Pagetitle.innerHTML = videos[index - 1].musictitle;
-        index -= 1
-    }
+    index -= 1
+    player.loadVideoById(listvideos[index])
+    MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
+    Pagetitle.innerHTML = videos[index].musictitle;
 }
 
 function NextMusic() {
     if (index == 0) {
+        index += 1
         console.log("index: " + index)
         player.loadVideoById(listvideos[1])
         MusicName.innerHTML = videos[1].artist + " - " + videos[1].musictitle;
