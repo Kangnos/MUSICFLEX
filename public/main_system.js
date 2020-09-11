@@ -9,6 +9,7 @@ var Pagetitle = document.getElementById("Pagetitle");
 
 
 var index = 0
+var backindex = 0
 
 var encoded_data = "";
 for (let i = 0; i < videos.length; i++) {
@@ -42,13 +43,16 @@ function onPlayvideo(idx) {
     Pagetitle.innerHTML = videos[idx].musictitle;
     video_code_number = idx
     console.log("idx", idx)
+    backindex = index
     index = idx + 1
 }
 
 function onPlayerReady(event) {
-    MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
-    Pagetitle.innerHTML = videos[index].musictitle;
-    event.target.playVideo();
+    if(index > 1){
+        MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
+        Pagetitle.innerHTML = videos[index].musictitle;
+        event.target.playVideo();
+    }
 }
 
 function onPlayerStateChange(event) {
@@ -63,6 +67,7 @@ function onPlayerStateChange(event) {
                 videoId: videos[video_code_number].vid
             });
         }
+        backindex = video_code_number
         index = video_code_number + 1
     }
 }
@@ -79,16 +84,10 @@ for (let i = 0; i < videos.length; i++) {
 // Buttons functions
 
 function BackMusic() {
-    if (index == 0) {
-        player.loadVideoById(listvideos[0])
-        MusicName.innerHTML = videos[0].artist + " - " + videos[0].musictitle;
-        Pagetitle.innerHTML = videos[0].musictitle;
-        index=0
-    }
-    index -= 1
-    player.loadVideoById(listvideos[index])
-    MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
-    Pagetitle.innerHTML = videos[index].musictitle;
+    player.loadVideoById(listvideos[backindex-1])
+    MusicName.innerHTML = videos[backindex-1].artist + " - " + videos[backindex-1].musictitle;
+    Pagetitle.innerHTML = videos[backindex-1].musictitle;
+    console.log("backindex: ",backindex-1)
 }
 
 function NextMusic() {
