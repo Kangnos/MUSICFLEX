@@ -48,11 +48,9 @@ function onPlayvideo(idx) {
 }
 
 function onPlayerReady(event) {
-    if(index > 1){
-        MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
-        Pagetitle.innerHTML = videos[index].musictitle;
-        event.target.playVideo();
-    }
+    MusicName.innerHTML = videos[index].artist + " - " + videos[index].musictitle;
+    Pagetitle.innerHTML = videos[index].musictitle;
+    event.target.playVideo();
 }
 
 function onPlayerStateChange(event) {
@@ -84,10 +82,12 @@ for (let i = 0; i < videos.length; i++) {
 // Buttons functions
 
 function BackMusic() {
-    player.loadVideoById(listvideos[backindex-1])
-    MusicName.innerHTML = videos[backindex-1].artist + " - " + videos[backindex-1].musictitle;
-    Pagetitle.innerHTML = videos[backindex-1].musictitle;
-    console.log("backindex: ",backindex-1)
+    index -= 1
+    console.log("index: " + index)
+    console.log(videos[index])
+    player.loadVideoById(listvideos[index - 1])
+    MusicName.innerHTML = videos[index - 1].artist + " - " + videos[index - 1].musictitle;
+    Pagetitle.innerHTML = videos[index - 1].musictitle;
 }
 
 function NextMusic() {
