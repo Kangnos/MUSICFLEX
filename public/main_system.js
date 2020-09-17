@@ -104,3 +104,36 @@ function NextMusic() {
     Pagetitle.innerHTML = videos[index].musictitle;
     index += 1
 }
+
+
+function music_shuffle(){
+    for (var a=[],i=0;i<40;++i) a[i]=i;
+
+    // http://stackoverflow.com/questions/962802#962890
+    function shuffle(array) {
+      var tmp, current, top = array.length;
+      if(top) while(--top) {
+        current = Math.floor(Math.random() * (top + 1));
+        tmp = array[current];
+        array[current] = array[top];
+        array[top] = tmp;
+      }
+      return array;
+    }
+    i = shuffle(a);
+    
+    for (let n = 0; n < i.length; i++) {
+        if (index == 0) {
+            index += 1
+            console.log("index: " + index)
+            player.loadVideoById(listvideos[n])
+            MusicName.innerHTML = videos[n].artist + " - " + videos[n].musictitle;
+            Pagetitle.innerHTML = videos[n].musictitle;
+        }
+        console.log("index: " + n)
+        player.loadVideoById(listvideos[n])
+        MusicName.innerHTML = videos[n].artist + " - " + videos[n].musictitle;
+        Pagetitle.innerHTML = videos[n].musictitle;
+        n += 1
+    }
+}
