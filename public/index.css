@@ -61,6 +61,45 @@ body {
 }
 
 
+
+/* shuffle toggle */
+
+.shuffle_toggle-container{
+    padding-left: 7px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+#shuffle_toggle-button{
+    width: 50px;
+    height: 20px;
+    background: gray;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 10px;
+}
+#shuffle_toggle-button > .inner-circle{
+    width:  20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+#shuffle_toggle-button.active{
+    background: #00acee;
+}
+
+#shuffle_toggle-button > .inner-circle:focus{
+    background-color: black;
+}
+
+
+#shuffle_toggle-button.active > .inner-circle{
+    margin-left: 30px;
+}
+
+
+
 /* darkmode button end */
 
 #player{

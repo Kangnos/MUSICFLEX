@@ -107,6 +107,9 @@ function NextMusic() {
 
 
 function music_shuffle(){
+    var shuffle_toggle = document.getElementById("shuffle_toggle-button");
+    var shuffle_toggle_condition = "unactive"
+
     for (var a=[],i=0;i<40;++i) a[i]=i;
 
     // http://stackoverflow.com/questions/962802#962890
@@ -120,20 +123,17 @@ function music_shuffle(){
       }
       return array;
     }
-    i = shuffle(a);
     
-    for (let n = 0; n < i.length; i++) {
-        if (index == 0) {
-            index += 1
-            console.log("index: " + index)
-            player.loadVideoById(listvideos[n])
-            MusicName.innerHTML = videos[n].artist + " - " + videos[n].musictitle;
-            Pagetitle.innerHTML = videos[n].musictitle;
-        }
-        console.log("index: " + n)
-        player.loadVideoById(listvideos[n])
-        MusicName.innerHTML = videos[n].artist + " - " + videos[n].musictitle;
-        Pagetitle.innerHTML = videos[n].musictitle;
-        n += 1
+    a = shuffle(a);
+    
+    if(shuffle_toggle.className == "active"){
+        shuffle_toggle_condition = "active"
+        console.log(shuffle_toggle_condition)
     }
+    else{
+        shuffle_toggle_condition = "unactive"
+        console.log(shuffle_toggle_condition)
+    }
+
+    // http://stackoverflow.com/questions/962802#962890
 }
