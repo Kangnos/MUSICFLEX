@@ -42,3 +42,6 @@
 #### Plan B is really difficult to do for me. But I think I can do it. JUST DO IT. 2020.6.24
 #### Plan D succeed 2020.6.28
 #### Plan E succeed 2020 07 20
+
+
+#### This project goona be remake in next year 2021
